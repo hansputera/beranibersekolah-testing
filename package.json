@@ -21,12 +21,18 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@swc/core": "^1.7.23",
-    "@types/node": "^20.16.5",
+    "@swc/core": "^1.11.24",
+    "@types/node": "^20.17.48",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "is-git-dirty": "^2.0.2",
-    "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "dayjs": "^1.11.13",
+    "got": "^14.4.7",
+    "node-cache": "^5.1.2"
   }
 }
